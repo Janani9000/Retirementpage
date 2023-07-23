@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Side Navbar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://kit.fontawesome.com/987eaf9177.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <nav class="side-nav">
+        <ul id="icons">
+            <li>
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/42/30/9c/42309c80-46ca-087f-ecf0-b8e286367ece/Application.png/246x0w.webp">
+            </li>
+            <li><a href=#search><i  class="fa-solid fa-magnifying-glass" style="margin-bottom:80px"></i></a></li>
+            <li><a href="#about"><i class="fa-solid fa-house"></i></a></li>
+
+            <li><a href="#calendar"><i class="fa-regular fa-calendar-days"></i></a></li>
+            <li><a href="#income"><i class="fa-solid fa-rectangle-list"></i></a></li>
+            <li><a href="#profile"><i class="fa-solid fa-user"></i></a></li>
+            <div class="bottom_nav">
+
+                <li><a href="#notify"><i class="fa-regular fa-bell"></i></a></li>
+                <li>
+                    <a href='#modile'></a><i class="fa-solid fa-arrow-right-from-bracket"></i></li>
+            </div>
+
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="column1 col-md-9" id="div1">
+
+                <img class="image" src="prof.png.webp" alt="profilpic">
+                <div class="side">
+                    <h1> Hi Jannu,</h1>
+                    <p>Welcome back.</p>
+
+                </div>
+                <div class="info1">
+                    <h2>Today</h2>
+                    <h1><b>$19,892</b></h1>
+                    <p>Account Balance</p>
+                    <h2>$4,000</h2>
+                    <p>Year-to-Date contribution</p>
+                    <h2>$1,892</h2>
+                    <p>Total Interest</p>
+                    <div class="dropdown">
+                        <div class="selected-option">
+                            <span>I want to</span>
+                            <i class="fa fa-caret-down"></i>
+                        </div>
+                        <div class="options">
+                            <div class="option">Option 1</div>
+                            <div class="option">Option 2</div>
+                            <div class="option">Option 3</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="info2">
+                    <h1>Recent Transactions</h1>
+                    <p>2020-06-07</p>
+                    <p><b>Withdrawal Transer to Bank-XXX11</b></p>
+
+                    <p>2020-07-21</p>
+                    <p><b>Withdrawal Transer to Bank-XXX11</b></p>
+
+                    <p>2020-07-16</p>
+                    <p><b>Withdrawal Transer to Bank-XXX11</b></p>
+                </div>
+
+            </div>
+
+
+
+        </div>
+        <div class="container1">
+            <div class="column2 col-md-3">
+                <div class="f1">
+
+                    <p><b>Retirement Income</b></p>
+                    <h2>Starting Year 2025</h2>
+                </div>
+                <div class="year">
+                    <div class="d1">
+                        <h1>$300,000</h1>
+                        <p>My Goal</p>
+                    </div>
+                    <div class="d2">
+                        <h1>59%</h1>
+                        <p>Goal Achieved</p>
+                    </div>
+                    <div class="d3">
+                        <h1>$300</h1>
+                        <p>Est. Montly Income</p>
+                    </div>
+                </div>
+                <div class="f2">
+                    <h3>Contribution Overtime</h3>
+
+
+
+
+                    <style>
+                        canvas {
+                            display: block;
+                            margin: 0 auto;
+                        }
+                    </style>
+                    <canvas id="contributionChart" width="800" height="400"></canvas>
+
+
+
+                    <div class="peers">
+                        <h4>How do i compare to my peers?</h4>
+                        <p>These numbers represent current goal achievement</p>
+                        <div class="peer1">
+                            <div class="col-md-6">
+                                <h4 style="border-bottom: 1px solid rgb(212, 207, 207);"><b>Age:</b> Under 30 <i class=" fa-solid fa-caret-down "></i></h4>
+                                <h4 style="border-bottom: 1px solid rgb(212, 207, 207); "><b>Salary:</b> K 20 - K 30 <i class="fa-solid fa-caret-down "></i></h4>
+                                <h4 style="border-bottom: 1px solid rgb(212, 207, 207); "><b>Gender:</b> Male <i class="fa-solid fa-caret-down "></i></h4>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="circles">
+                                    <div class="circle1"></div>
+                                    <div class="circle2"></div>
+                                    <div class="circle3"></div>
+
+                                </div>
+                                <div class="write">
+                                    <h1 class="f">78%</h1>
+                                    <h1 class="s">95%</h1>
+                                    <h1 class="t">59%</h1>
+
+                                </div>
+                                <div class="text">
+                                    <h4 class="f1">Average</h4>
+                                    <h4 class="s1">Top</h4>
+                                    <h4 class="t1">Me</h4>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container2">
+            <div class=" column3 col-md-6">
+                <h2>Retirement Strategy</h2>
+                <h4>Employee Contribution</h4>
+                <div class="measuring-line">
+                    <h2 class="per1">12%</h2>
+
+                </div>
+                <h4>Retirment Age</h4>
+                <div class="measuring-line1">
+                    <h2 class="per1">65</h2>
+                    <p style=" border-bottom: 2px solid rgb(198, 193, 193);"></p>
+
+                </div>
+                <div class="per2">
+                    <h4>Employee Contribution 8.4%</h4>
+                    <h4>Interest Rate 5%</h4>
+                    <button class="btn"> Update</button>
+                    <h3 class="per3"> View Help Docs ></h3>
+                </div>
+
+            </div>
+            <div class="per4">
+                <p>Are You Considering a <b>Housing Advance?</b></p>
+                <p>Limited time reduced interest.</p>
+                <p class="per3">learn More ></p>
+            </div>
+        </div>
+</body>
+
+</html>
+
+
+</div>
+
+
+</div>
+</div>
+
+
+
+</div>
+
+
+
+<script src="script.js "></script>
+</body>
+
+</html>
